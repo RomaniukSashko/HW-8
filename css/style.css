@@ -1,0 +1,70 @@
+/* 1 Завдання */
+h3:first-child {
+    color: pink
+}
+
+#greycol{
+    color: grey
+}
+
+div + div > p {
+    color: red
+}
+
+h3:last-child {
+    color: none
+}
+
+div + h3 + p {
+    color: green
+}
+
+[class="yellow"] {
+    color: yellow
+}
+
+/* 2 Завдання */
+.cell, .cell-h {
+    border: 2.5px solid black;
+}
+
+.cell-h {
+    background-color: blue;
+    color: azure;
+}
+
+.cell {
+    background-color: skyblue;
+}
+
+.cell:nth-child(6) {
+    color:orangered;
+}
+
+.cell:nth-child(5) {
+    color:green;
+}
+
+.cell:nth-child(4) {
+    color:blueviolet;
+}
+
+.cell:nth-child(3){
+    color:red;
+}
+
+.cell:first-child {
+    color:rgb(84, 1, 84);
+}
+
+.cell:nth-child(2) {
+    color: rgb(138, 118, 4);
+}
+
+.cell:hover {
+    background-color: rgb(118, 182, 207);
+}
+
+.cell-h:hover {
+    background-color: rgb(0, 0, 203);
+}
